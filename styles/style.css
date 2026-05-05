@@ -15,7 +15,7 @@ html {
   inline-size: 1px;
   block-size: 1px;
   clip-path: inset(50%);
-  white-space: nowrap
+  white-space: nowrap;
 }
 
 .page {
