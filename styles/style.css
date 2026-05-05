@@ -9,6 +9,7 @@ html {
 }
 
 .visually-hidden {
+
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
@@ -32,17 +33,18 @@ html {
 }
 
 .content {
-   display: grid;
-   grid-template-columns: 711px 399px;
-   grid-template-areas: "result details";
-   align-content: center;
-   place-items: end;
-   gap: 30px;
-   inline-size: 1140px;
+  display: grid;
+  grid-template-columns: 711px 399px;
+  grid-template-areas: "result details";
+  align-content: center;
+  place-items: end;
+  gap: 30px;
+  inline-size: 1140px;
 }  
 
 .result {
-   grid-area: result;
+
+  grid-area: result;
 }
 
 .search-form {
