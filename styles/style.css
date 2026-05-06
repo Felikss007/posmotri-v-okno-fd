@@ -8,6 +8,25 @@ html {
   block-size: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
 .visually-hidden {
   position: absolute;
   overflow: hidden;
@@ -103,7 +122,7 @@ html {
 
 .content__video-card-thumbnail {
   height: 103px;
-  min-width: 194px;
+  width: 194px;
   object-fit: cover;
   object-position: center;
 }
@@ -180,7 +199,6 @@ html {
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-  
 }
 
 .search-form__textfield:focus {
@@ -197,13 +215,13 @@ html {
   font-size: 18px;
   line-height: 1;
   font-weight: 400;
-  color: #FFFFFFB2;
+  color: #FFF;
   background-color: transparent;
   inline-size: 225px;
   cursor: pointer;
-  border-top: 1px solid #FFFFFFB2;
+  border-top: 1px solid #FFF;
   border-right: none;
-  border-bottom: 1px solid #FFFFFFB2;
+  border-bottom: 1px solid #FFF;
   border-left: none;
   appearance: none;
 }
@@ -213,7 +231,6 @@ html {
   height: 19px;
   border: 1px solid white;
   cursor: pointer;
-  
 }
 
 .search-form__pseudo-checkbox::after {
@@ -294,28 +311,8 @@ html {
 }
 
  .content__list-item {
-  overflow-x: hidden;
   padding-left: 3px;
   padding-right: 3px;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-blockquote,
-fieldset {
-  margin: 0;
-  padding: 0;
-}
-
-ul,
-ol {
-  list-style: none;
 }
 
 /* Кастомный скроллбар */
